@@ -1,3 +1,5 @@
+/* Styles CSS existants */
+
 /* Réinitialisation des styles par défaut */
 * {
     margin: 0;
@@ -7,8 +9,8 @@
 
 /* Styles de base */
 body {
-    font-family: Georgia, serif;
-    background-color: #f5f9fd;
+    font-family: Arial, sans-serif;
+    background-color: #f5e99f;
     color: #333;
     line-height: 1.6;
 }
@@ -86,7 +88,45 @@ button:hover {
     background-color: #1c2361;
 }
 
-.error-message {
-    color: red;
-    margin-top: 5px;
+/* Nouveaux styles pour la page de profil */
+
+#profile {
+    background-color: #f0f5ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#profile h2 {
+    color: #1c2361;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#profile h3 {
+    color: #1c2361;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#profile ul {
+    margin-bottom: 20px;
+}
+
+#profile ul li {
+    margin-bottom: 5px;
+}
+
+#premiumButton {
+    padding: 10px 20px;
+    background-color: #5c87db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#premiumButton:hover {
+    background-color: #1c2361;
 }

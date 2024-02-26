@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirection après connexion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Educours</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="usernameLink">Nom d'utilisateur</a>
+                    <ul class="dropdown">
+                        <li><a href="deconnexion.html">Se déconnecter</a></li>
+                        <li><a href="gestion_compte.html">Gestion du compte</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2>Bienvenue sur votre profil</h2>
+            <p>Contenu de la page de profil...</p>
+            <h3>Statistiques du compte</h3>
+            <ul>
+                <li>Nombre de cours publiés : 10</li>
+                <li>Nombre total de vues : 1000</li>
+                <li>Nombre de cours visionnés : 20</li>
+            </ul>
+            <h3>Offre Premium</h3>
+            <p>Apprenez sans limites...</p>
+            <ul>
+                <li>Du contenu en illimité : Accédez aux cours, aux vidéos et aux quizz sans restrictions.</li>
+                <li>Sans publicités : Suppression des annonces publicitaires.</li>
+                <li>Où que vous soyez : Téléchargez le contenu librement afin d'y avoir accès pour toujours !</li>
+            </ul>
+            <button id="premiumButton">Profiter de l'offre Premium</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
